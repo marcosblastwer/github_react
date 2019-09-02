@@ -1,0 +1,43 @@
+.login-wrapper {
+  background-color: #fff;
+  border: none;
+  box-shadow: 0 0 16px -6px rgba(0,0,0,.1);
+  margin: 40px auto;
+  padding: 5em 5em 3em 5em;
+  position: relative;
+}
+
+.login-wrapper,
+.login-wrapper form {
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  width: 400px;
+}
+  @media screen and (max-width: 600px) {
+    .login-wrapper,
+    .login-wrapper form {
+      margin: 0;
+      width: 80%;
+    }
+  }
+
+.login-wrapper input {
+  margin-bottom: 20px !important;
+}
+
+.login-title {
+  font-size: 26px;
+  margin: 10px 0 30px 0;
+  text-align: center;
+}
+
+.github-logo {
+  height: 64px;
+  margin: 0 auto;
+  width: 64px;
+}
+
+.loading-align {
+  margin: 0 auto;
+}

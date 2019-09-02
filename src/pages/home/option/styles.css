@@ -1,0 +1,31 @@
+.home-option {
+  align-content: center;
+  align-items: center;
+  background-color: #fff;
+  border: none;
+  box-shadow: 0 0 16px -6px rgba(0,0,0,.1);
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  font-size: 26px;
+  margin-bottom: 40px;
+  outline: none;
+  padding: 2em;
+  text-align: center;
+  transition: .1s;
+  -webkit-transition: .1s;
+  vertical-align: middle;
+}
+
+.home-option:focus, .home-option:hover {
+  box-shadow: 0 0 16px -4px rgba(0, 143, 226, .4);
+}
+
+.home-option:active {
+  background-color: #eee;
+  box-shadow: none;
+}
+
+.home-option img {
+  margin-bottom: 10px;
+}

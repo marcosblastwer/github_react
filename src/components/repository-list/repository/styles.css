@@ -1,0 +1,19 @@
+.repo-wrapper {
+  background-color: #fff;
+  border: none;
+  box-shadow: 0 0 16px -6px rgba(0,0,0,.1);
+  font-size: 14px;
+  margin-bottom: 40px;
+  padding: 1em;
+  transition: .3s;
+  -webkit-transition: .3s;
+}
+.repo-wrapper:hover {
+  box-shadow: 0 0 16px -4px rgba(0, 143, 226, .4);
+}
+
+.repo-description {
+  font-weight: 400;
+  margin: 2em 0;
+}
+

@@ -1,0 +1,10 @@
+.repo-footer, .footer-separator {
+  color: #ccc;
+}
+.footer-separator {
+  background-color: #ccc;
+  border-radius: 50%;
+  height: 4px;
+  margin: 0 1em;
+  width: 4px;
+}

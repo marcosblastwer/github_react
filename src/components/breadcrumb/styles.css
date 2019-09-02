@@ -1,0 +1,17 @@
+.breadcrumb, .breadcrumb.span, .breadcrumb span, .breadcrumb-home-button {
+  color: #333;
+  font-size: 26px !important;
+  font-weight: 300 !important;
+}
+
+.breadcrumb-separator {
+  margin: 0 .5em;
+}
+
+.breadcrumb-home-button {
+  padding: 5px 10px;
+}
+
+.breadcrumb-path {
+  margin-right: 1em;
+}

@@ -1,0 +1,34 @@
+a, link {
+  text-decoration: none;
+}
+
+.profile-navbar-link {
+  border-bottom: 2px solid transparent;
+  color: #333;
+  cursor: pointer;
+  margin-right: 1em;
+  padding: 1em .5em;
+  transition: .2s;
+  -webkit-transition: .2s;
+}
+
+.profile-navbar-link:hover {
+  border-bottom: 2px solid #e1e4e8;
+  color: #008fe2;
+}
+
+.profile-navbar-link.active {
+  border-bottom: 2px solid #008fe2 !important;
+  color: #008fe2 !important;
+  font-weight: 500 !important;
+}
+
+.profile-navbar-badge {
+  background-color: #eee;
+  border-radius: 4px;
+  color: #777 !important;
+  font-size: 12px;
+  font-weight: 500;
+  margin-left: 4px;
+  padding: 2px 5px;
+}

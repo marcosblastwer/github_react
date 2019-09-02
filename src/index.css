@@ -1,0 +1,46 @@
+html, body, button, input {
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  overflow: -moz-scrollbars-vertical; 
+  overflow-y: scroll;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+button {
+  cursor: pointer;
+}
+.btn-clean {
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  color: #333;
+  padding: 0;
+}
+.btn-clean:hover {
+  background-color: transparent;
+}
+.btn-clean:active {
+  background-color: transparent;
+}
+.btn-clean:focus {
+  box-shadow: none;
+}

@@ -1,0 +1,11 @@
+.not-found-image {
+  margin-top: 40px;
+  position: relative;
+  width: 100%;
+}
+
+.not-found-image img {
+  height: 800px;
+  width: 600px;
+  margin: 0 auto;
+}

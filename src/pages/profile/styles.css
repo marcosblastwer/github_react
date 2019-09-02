@@ -1,0 +1,16 @@
+.profile-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 40px;
+}
+
+.profile-data {
+  flex: 3;
+  margin-left: 40px;
+}
+
+.profile-navbar {
+  border-bottom: 1px solid #e1e4e8;
+  display: flex;
+  position: relative;
+}

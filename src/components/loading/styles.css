@@ -1,0 +1,10 @@
+.loading {
+  height: 48px;
+  width: 48px;
+}
+.loading-hidden {
+  visibility: hidden;
+}
+.loading-visible {
+  visibility: visible;
+}

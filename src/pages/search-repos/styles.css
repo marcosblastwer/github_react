@@ -1,0 +1,12 @@
+.search-box {
+  width: 100%;
+}
+.search-box form {
+  display: flex;
+  display: -webkit-flex;
+  position: relative;
+}
+.search-box input {
+  box-sizing: border-box;
+  margin: 1.8em 0;
+}

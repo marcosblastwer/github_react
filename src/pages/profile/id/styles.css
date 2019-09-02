@@ -1,0 +1,30 @@
+.profile-id, .profile-id > div {
+  color: #777;
+  display: flex;
+  flex: 1;
+  flex-flow: column wrap;
+  font-weight: 400;
+  margin-bottom: 16px;
+  max-width: 256px;
+  position: relative;
+}
+.profile-id > div {
+  border: 1px solid #e1e4e8;
+  border-radius: 2px;
+}
+
+.profile-id > div > div {
+  padding: .5em .5em;
+}
+
+.profile-id a {
+  font-size: 18px;
+  font-weight: 400;
+  padding: .6em 1.2em;
+  text-align: center;
+  text-decoration: none;
+}
+
+.profile-id a img {
+  margin-right: 1em;
+}

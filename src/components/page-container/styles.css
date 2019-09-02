@@ -1,0 +1,31 @@
+.page-container, .page-container-items {
+  transition: .3s;
+  -webkit-transition: .3s;
+}
+
+.page-container {
+  color: #333;
+  display: flex;
+  display: -webkit-flex;
+  padding: 1.8em;
+}
+  @media screen and (max-width: 400px) {
+    .page-container {
+      padding: .5em;
+    }
+  }
+
+.page-container-items {
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  width: 980px;
+}
+  @media screen and (max-width: 1200px) {
+    .page-container {
+      display: block;
+    }
+    .page-container-items {
+      width: auto;
+    }
+  }
